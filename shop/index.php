@@ -1,4 +1,6 @@
 <?php
+require_once '../inc/init.php';
+
 $page = isset($_GET["page"]) ? $_GET["page"] : 'products-list';
 ?>
 
